@@ -62,25 +62,43 @@
           "hidden");
       });
   </script>
+<body class="bg-gray-200">
+<div class="container mx-auto px-4 py-8">
+<h1 class="text-3xl font-semibold text-center mb-4">Website Developer Job Application</h1>
 
-<!-- Application menu interface-->
-<html>
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-  <div class="flex justify-center items-center min-h-screen">
-  <div class="border p-4 w-full sm:w-1/2">
-  <div class="flex flex-col space-y-2">
-  <button class="border p-2">First name and last name..</button>
-  <button class="border p-2">Course you are applying for</button>
-  <button class="border p-2">Any past experience</button>
-  <button class="border p-2">Date of birth</button>
-  <button class="border p-2 mt-4">Submit</button>
-  </div>
-  </div>
-  </div>
-  </body>
-  </html>
+<form action="#" method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+<div class="mb-4">
+<label for="name" class="block text-gray-700 font-bold mb-2">Applicators Name</label>
+<input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="John Doe" required>
+</div>
+
+ 
+
+            <div class="mb-4">
+<label for="dob" class="block text-gray-700 font-bold mb-2">Birth Day</label>
+<input type="date" id="dob" name="dob" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+</div>
+
+ 
+
+            <div class="mb-4">
+<label for="email" class="block text-gray-700 font-bold mb-2">Email Address</label>
+<input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="example@example.com" required>
+</div>
+<div class="mb-4">
+<label for="email" class="block text-gray-700 font-bold mb-2">First and last name</label>
+<input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Another A" required>
+</div>
+<div class="mb-4">
+<label for="email" class="block text-gray-700 font-bold mb-2">Course/Job your applying for</label>
+<input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Another A" required>
+</div>
+<div class="mb-6">
+<label for="resume" class="block text-gray-700 font-bold mb-2">Upload Resume</label>
+<input type="file" id="resume" name="resume" class="block" required>
+</div>
+<div class="flex justify-center">
+<button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit Application</button>
+</div>
+</form>
+</div>
